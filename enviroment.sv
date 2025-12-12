@@ -13,15 +13,15 @@ monitor_in mon_in;
 monitor_out mon_out;
 scoreboard scb;
 
-//mailbox handles
+// mailbox handles
 mailbox gen2drv;
 mailbox mon2scbin;
 mailbox mon2scbout;
   
-//virtual interface
+// virtual interface
 virtual inf vinf;
 
-//constructor
+// constructor
   function new(virtual inf vinf);
 	//get the interface from test
 	this.vinf = vinf;
